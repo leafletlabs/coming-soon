@@ -2,6 +2,18 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.icon {
+    width: 72px;
+    height: 72px;
+}
+
+@media all and (min-width: 640px) {
+    .icon {
+        width: 128px;
+        height: 128px;
+    }
+}
+
 .h1,
 .h2,
 .h3,
